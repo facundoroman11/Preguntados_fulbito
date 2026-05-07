@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ECEFF1"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Hola "
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnClubes"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="APODOS DE CLUBES"
+        android:backgroundTint="#03A9F4"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnSeleccion"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LA SCALONETA"
+        android:backgroundTint="#81D4FA"/>
+</LinearLayout>

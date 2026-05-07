@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/question_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="25dp"
+    android:background="#2E7D32">
+
+    <TextView
+        android:id="@+id/tvPregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Pregunta de fútbol?"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/btnOpcion1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Opción A"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnOpcion2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Opción B"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#2E7D32"/>
+
+    <Button
+        android:id="@+id/btnAtras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOLVER"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FF5252"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+</LinearLayout>
